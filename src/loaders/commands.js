@@ -15,6 +15,7 @@ module.exports = (client) => {
                   let cmdsName = cmd.split(".")[0]
 
                   client.cmds.set(cmdsName,requestFile)
+                  client.commandsArray.push(cmdsName)
 
                   let cmdP = new requestFile(client)
 
