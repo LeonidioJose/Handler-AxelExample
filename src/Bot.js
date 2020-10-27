@@ -1,6 +1,6 @@
 const { Client, Collection } = require("discord.js")
 
-module.exports = class Axel extends Client {
+module.exports = class bot extends Client {
     constructor(...args) {
         super(...args)
 
